@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <title>Bài 1 - Bảng Thành Phần Dinh Dưỡng</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <style>
+        .table-custom-header th {
+            background-color: #ff9800 !important;
+            color: #ffffff !important;
+            vertical-align: middle;
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="bg-light py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <!-- Tiêu đề màu đỏ cam -->
+                <h2 class="text-center fw-bold mb-4" style="color: #e65100;">Bảng Thành Phần Dinh Dưỡng</h2>
+                
+                <div class="table-responsive shadow-sm rounded">
+                    <table class="table table-bordered table-striped mb-0 text-center align-middle bg-white">
+                        <thead class="table-custom-header">
+                            <tr>
+                                <th rowspan="2" class="align-middle">Thành Phần</th>
+                                <th colspan="2">Giá Trị</th>
+                            </tr>
+                            <tr>
+                                <th>Khối Lượng</th>
+                                <th>% DV*</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-start ps-3">Calories</td>
+                                <td>200 kcal</td>
+                                <td>20%</td>
+                            </tr>
+                            <tr>
+                                <td class="text-start ps-3">Chất Béo</td>
+                                <td>9 g</td>
+                                <td>14%</td>
+                            </tr>
+                            <tr>
+                                <td class="text-start ps-3">Chất Béo Bão Hòa</td>
+                                <td>4 g</td>
+                                <td>20%</td>
+                            </tr>
+                            <tr>
+                                <td class="text-start ps-3">Chất Đạm</td>
+                                <td>8 g</td>
+                                <td>16%</td>
+                            </tr>
+                            <tr>
+                                <td class="text-start ps-3">Chất Xơ</td>
+                                <td>5 g</td>
+                                <td>20%</td>
+                            </tr>
+                            <tr>
+                                <td class="text-start ps-3">Đường</td>
+                                <td>12 g</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2" class="text-start ps-3 align-middle">Vitamin</td>
+                                <td>Vitamin C</td>
+                                <td>25%</td>
+                            </tr>
+                            <tr>
+                                <td>Vitamin D</td>
+                                <td>10%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

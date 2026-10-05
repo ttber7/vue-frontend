@@ -1,0 +1,234 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Công Nghệ & Lập Trình",
+      "description": "Các bài viết về công nghệ, lập trình web và AI",
+      "isActive": true
+    },
+    {
+      "id": "2",
+      "name": "Sức Khỏe & Thể Thao",
+      "description": "Bí quyết rèn luyện sức khỏe, dinh dưỡng và Pilates",
+      "isActive": true
+    },
+    {
+      "id": "3",
+      "name": "Đời Sống & Kỹ Năng",
+      "description": "Bài học cuộc sống, kỹ năng mềm và phát triển bản thân",
+      "isActive": true
+    },
+    {
+      "id": "4",
+      "name": "Ẩm Thực & Dinh Dưỡng",
+      "description": "Thực đơn dinh dưỡng, Eat Clean và món ngon mỗi ngày",
+      "isActive": true
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Phương pháp tập Pilates giúp phục hồi chấn thương cột sống",
+      "title": "Phương pháp tập Pilates giúp phục hồi chấn thương cột sống",
+      "description": "Ngoài việc giúp duy trì vóc dáng, cải thiện sự linh hoạt, dẻo dai cho người tập, Pilates giúp cơ bắp và các khớp mọc dài hơn, kéo giãn hơn...",
+      "details": "Tập Pilates có thể vẫn còn khá xa lạ với người Việt, nhưng tại các nước phương Tây thì đây chính là phương pháp tập thể dục giúp duy trì vóc dáng, tăng cường ý chí và cải thiện sự linh hoạt, dẻo dai cho người tập. Đặc biệt, các bài tập Pilates còn có khả năng trị đau lưng, là giải pháp hữu hiệu để phục hồi chấn thương cột sống. Sau đây hãy cùng tìm hiểu các phương pháp tập luyện này giúp phục hồi chấn thương cột sống nhanh chóng nhé!\n\nMột trong những căn bệnh ngày càng phổ biến, đặc biệt là dân văn phòng, đó là đau lưng, thoát vị đĩa đệm. Tuy nhiên, nếu điều trị không đúng cách có thể dẫn đến nhiều biến chứng nguy hiểm. Vì vậy, tập đúng động tác kết hợp chế độ ăn uống khoa học sẽ giúp phục hồi tốt nhất.",
+      "image": "tap-piltes.jpg",
+      "category": 2,
+      "categoryName": "Sức Khỏe & Thể Thao",
+      "author": "TS. Trần Hoàng",
+      "createdAt": "01/10/2026",
+      "hot": 1,
+      "views": 1520,
+      "price": 0,
+      "discounted": 0,
+      "quantity": 100,
+      "authorEmail": "admin@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Khám phá các tính năng mới trong Vue 3.5 và Vue Router 4",
+      "title": "Khám phá các tính năng mới trong Vue 3.5 và Vue Router 4",
+      "description": "Tìm hiểu về tối ưu hóa reactivity, Reactive Props Destructure và các cải tiến hiệu năng vượt bậc trong bản cập nhật Vue 3.5.",
+      "details": "Vue 3.5 mang lại nhiều cải tiến đáng kể cho bộ nhớ và tốc độ thực thi của hệ thống reactivity. Điểm đáng chú ý nhất là cú pháp Reactive Props Destructure giờ đây đã ổn định, giúp lập trình viên viết code ngắn gọn và tự nhiên hơn bao giờ hết. Kết hợp cùng Vue Router 4, bạn có thể dễ dàng quản lý các route lồng nhau và bảo vệ các trang quản trị bằng navigation guards.",
+      "image": "banner2.jpg",
+      "category": 1,
+      "categoryName": "Công Nghệ & Lập Trình",
+      "author": "Bùi Tấn Tín",
+      "createdAt": "03/10/2026",
+      "hot": 1,
+      "views": 2340,
+      "price": 0,
+      "discounted": 0,
+      "quantity": 100,
+      "authorEmail": "admin@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Biết ơn đời, đời sẽ thương ta: Bài học sống an nhiên",
+      "title": "Biết ơn đời, đời sẽ thương ta: Bài học sống an nhiên",
+      "description": "Học cách trân trọng những điều bình dị quanh mình để tìm thấy sự an yên giữa cuộc sống bộn bề và áp lực.",
+      "details": "Cuộc sống luôn tràn ngập những biến động và thử thách. Khi ta học cách biết ơn mỗi buổi sớm mai thức dậy, biết ơn những người đã đồng hành cùng ta, ta sẽ thấy lòng mình nhẹ nhõm hơn. Tinh thần tích cực chính là liều thuốc quý giá nhất giúp bạn vượt qua mọi nghịch cảnh và hướng tới một tương lai tốt đẹp.",
+      "image": "corevalue.jpg",
+      "category": 3,
+      "categoryName": "Đời Sống & Kỹ Năng",
+      "author": "Bình An",
+      "createdAt": "04/10/2026",
+      "hot": 1,
+      "views": 1890,
+      "price": 0,
+      "discounted": 0,
+      "quantity": 100,
+      "authorEmail": "admin@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "EAT CLEAN: Nên Và Không Nên Ăn Thực Phẩm Nào?",
+      "title": "EAT CLEAN: Nên Và Không Nên Ăn Thực Phẩm Nào?",
+      "description": "Chúng ta luôn chú trọng lựa chọn thực phẩm sạch và duy trì lối sống lành mạnh. Hãy cùng tìm hiểu thực đơn khoa học mỗi ngày.",
+      "details": "Chế độ ăn Eat Clean khuyến khích sử dụng thực phẩm nguyên bản, hạn chế chế biến sẵn, đường và chất béo chuyển hóa. Tăng cường rau xanh, củ quả tươi, các loại hạt dinh dưỡng và protein nạc sẽ giúp cơ thể thanh lọc, duy trì vóc dáng thon gọn và nâng cao hệ miễn dịch.",
+      "image": "eat-clean.png",
+      "category": 4,
+      "categoryName": "Ẩm Thực & Dinh Dưỡng",
+      "author": "Chuyên gia Dinh dưỡng",
+      "createdAt": "05/10/2026",
+      "hot": 0,
+      "views": 1120,
+      "price": 0,
+      "discounted": 0,
+      "quantity": 100,
+      "authorEmail": "admin@gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "8 loại rau củ quả giàu canxi tốt cho xương khớp",
+      "title": "8 loại rau củ quả giàu canxi tốt cho xương khớp",
+      "description": "Canxi là khoáng chất cần thiết đối với cơ thể người. Có nhiều cách để bổ sung canxi qua đường ăn uống tự nhiên.",
+      "details": "Cải bó xôi (spinach), súp lơ xanh, đậu bắp, cải xoăn là những nguồn bổ sung canxi thực vật dồi dào, dễ hấp thụ và an toàn cho mọi lứa tuổi. Hãy đưa các loại rau này vào thực đơn hàng ngày để hệ xương khớp luôn chắc khỏe.",
+      "image": "spinach_300x300.jpg",
+      "category": 2,
+      "categoryName": "Sức Khỏe & Thể Thao",
+      "author": "TS. Trần Hoàng",
+      "createdAt": "05/10/2026",
+      "hot": 0,
+      "views": 980,
+      "price": 0,
+      "discounted": 0,
+      "quantity": 100,
+      "authorEmail": "admin@gmail.com"
+    },
+    {
+      "id": 6,
+      "name": "Đi xa hơn để trưởng thành hơn: Nhật ký những chuyến đi",
+      "title": "Đi xa hơn để trưởng thành hơn: Nhật ký những chuyến đi",
+      "description": "Tuổi trẻ chỉ nghĩ đến những chuyến đi, đợi mong một ngày được bay nhảy trên những phương trời mới lạ...",
+      "details": "Đi để thấy thế giới rộng lớn, đi để gặp gỡ những con người mới và học hỏi những nền văn hóa khác nhau. Mỗi chuyến đi là một bài học đắt giá giúp ta nhìn nhận lại bản thân, trưởng thành hơn trong suy nghĩ và giàu có hơn trong tâm hồn.",
+      "image": "video1.jpg",
+      "category": 3,
+      "categoryName": "Đời Sống & Kỹ Năng",
+      "author": "Nguyễn Văn Tèo",
+      "createdAt": "06/10/2026",
+      "hot": 0,
+      "views": 1450,
+      "price": 0,
+      "discounted": 0,
+      "quantity": 100,
+      "authorEmail": "teo@gmail.com"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "productId": 1,
+      "author": "Bình An",
+      "authorEmail": "binhan@gmail.com",
+      "content": "Bài viết về Pilates rất hữu ích cho người làm văn phòng hay bị đau lưng!",
+      "createdAt": "05/10/2026 09:30"
+    },
+    {
+      "id": "2",
+      "productId": 1,
+      "author": "Nguyễn Văn Tèo",
+      "authorEmail": "teo@gmail.com",
+      "content": "Động tác Cat Cow tập rất dễ chịu, cảm ơn tác giả đã hướng dẫn chi tiết.",
+      "createdAt": "05/10/2026 14:20"
+    },
+    {
+      "id": "3",
+      "productId": 2,
+      "author": "Phạm Thị Lan",
+      "authorEmail": "lanpt@gmail.com",
+      "content": "Vue Router 4 kết hợp Navigation Guard bảo vệ trang rất tiện lợi.",
+      "createdAt": "06/10/2026 08:15"
+    }
+  ],
+  "user": [
+    {
+      "id": "1790",
+      "email": "teo@gmail.com",
+      "password": "$2a$10$aAqECvnMdJIzQSL1Pfpyee3A2mn/XqhZiNR29LzMs.oWDm4wMDW3q",
+      "role": "user",
+      "fullname": "Người dùng teo"
+    },
+    {
+      "id": "6bda",
+      "email": "ty@gmail.com",
+      "password": "$2a$10$aAqECvnMdJIzQSL1Pfpyee3A2mn/XqhZiNR29LzMs.oWDm4wMDW3q",
+      "role": "user",
+      "fullname": "Người dùng ty"
+    },
+    {
+      "id": "43fc",
+      "email": "ty1@gmail.com",
+      "password": "$2a$10$aAqECvnMdJIzQSL1Pfpyee3A2mn/XqhZiNR29LzMs.oWDm4wMDW3q",
+      "fullname": "nguyen thi tA",
+      "phone": 123456789,
+      "address": "Q12 tphcm",
+      "role": "user"
+    },
+    {
+      "id": "2256",
+      "email": "ty2@gmail.com",
+      "password": "$2a$10$aAqECvnMdJIzQSL1Pfpyee3A2mn/XqhZiNR29LzMs.oWDm4wMDW3q",
+      "fullname": "nguy.n van tA",
+      "phone": 123456788,
+      "address": "Q12 TpHCM",
+      "role": "user"
+    },
+    {
+      "id": "a70a",
+      "email": "123@gmail.com",
+      "password": "$2a$10$aAqECvnMdJIzQSL1Pfpyee3A2mn/XqhZiNR29LzMs.oWDm4wMDW3q",
+      "fullname": "buitantin",
+      "phone": 93563972,
+      "address": "23213",
+      "role": "user"
+    },
+    {
+      "id": "a5cb",
+      "email": "van@gmail.com",
+      "password": "$2a$10$aAqECvnMdJIzQSL1Pfpyee3A2mn/XqhZiNR29LzMs.oWDm4wMDW3q",
+      "fullname": "VAN",
+      "phone": 123456789,
+      "address": "q12",
+      "role": "user"
+    },
+    {
+      "id": "485b",
+      "email": "admin@gmail.com",
+      "password": "$2a$10$aAqECvnMdJIzQSL1Pfpyee3A2mn/XqhZiNR29LzMs.oWDm4wMDW3q",
+      "fullname": "admin",
+      "phone": 123456789,
+      "address": "Q12. TP HCM",
+      "role": "admin"
+    },
+    {
+      "id": "0542",
+      "email": "teo123@gmail.com",
+      "password": "$2a$10$aAqECvnMdJIzQSL1Pfpyee3A2mn/XqhZiNR29LzMs.oWDm4wMDW3q",
+      "fullname": "teo",
+      "phone": 1234567890,
+      "address": "Q21",
+      "role": "user"
+    }
+  ]
+}

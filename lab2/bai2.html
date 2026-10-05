@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <title>Bài 2 - Thiết kế Form Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="bg-light py-4">
+    <div class="container">
+        <div class="row g-4">
+            
+            <!-- Cột trái: Form Đăng Ký Thông Tin -->
+            <div class="col-md-6">
+                <div class="card p-4 shadow-sm h-100">
+                    <h4 class="card-title fw-bold mb-4">Form Đăng Ký Thông Tin</h4>
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label text-secondary small">Họ và Tên</label>
+                            <input type="text" class="form-control" placeholder="Nhập họ và tên" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label text-secondary small">Email</label>
+                            <input type="email" class="form-control" placeholder="Nhập email" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label text-secondary small">Số Điện Thoại</label>
+                            <input type="tel" class="form-control" placeholder="Nhập số điện thoại" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label text-secondary small">Mật Khẩu</label>
+                            <input type="password" class="form-control" placeholder="Nhập mật khẩu" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label text-secondary small">Xác Nhận Mật Khẩu</label>
+                            <input type="password" class="form-control" placeholder="Xác nhận mật khẩu" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label text-secondary small me-3">Giới Tính:</label>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="gioiTinh" id="male" value="nam" checked>
+                                <label class="form-check-label small" for="male">Nam</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="gioiTinh" id="female" value="nu">
+                                <label class="form-check-label small" for="female">Nữ</label>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label text-secondary small">Ngôn Ngữ</label>
+                            <select class="form-select">
+                                <option selected>Tiếng Việt</option>
+                                <option value="en">Tiếng Anh</option>
+                                <option value="jp">Tiếng Nhật</option>
+                            </select>
+                        </div>
+
+                        <div class="form-check mb-4">
+                            <input class="form-check-input" type="checkbox" id="dongY" required>
+                            <label class="form-check-label text-secondary small" for="dongY">
+                                Tôi đồng ý với các điều khoản và điều kiện
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary px-4">Đăng Ký</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Cột phải: Form Đăng nhập -->
+            <div class="col-md-6">
+                <div class="card p-4 shadow-sm h-100">
+                    <h4 class="card-title fw-bold mb-4">Form Đăng nhập</h4>
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label text-secondary small">Email</label>
+                            <input type="email" class="form-control" placeholder="Nhập email" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label text-secondary small">Mật Khẩu</label>
+                            <input type="password" class="form-control" placeholder="Nhập mật khẩu" required>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary px-4 mt-2">Đăng Nhập</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

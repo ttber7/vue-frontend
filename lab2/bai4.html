@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <title>Bài 4 - Kết Hợp Tab và Modal</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="bg-light py-5">
+    <div class="container text-center">
+        <div class="card p-5 shadow-sm col-md-8 mx-auto bg-white">
+            <h3 class="fw-bold mb-4">Bài tập ứng dụng Modal cho Tài khoản</h3>
+            <div>
+                <button type="button" class="btn btn-primary px-4 py-2 fw-bold" data-bs-toggle="modal" data-bs-target="#myModal">
+                    Tài khoản
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content shadow">
+                
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold" id="myModalLabel">ĐĂNG NHẬP/ ĐĂNG KÝ</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <!-- Modal Body -->
+                <div class="modal-body p-4">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="modal-register-tab" data-bs-toggle="tab" data-bs-target="#modal-register" type="button" role="tab" aria-controls="modal-register" aria-selected="false">
+                                Đăng ký
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active fw-bold" id="modal-login-tab" data-bs-toggle="tab" data-bs-target="#modal-login" type="button" role="tab" aria-controls="modal-login" aria-selected="true">
+                                Đăng nhập
+                            </button>
+                        </li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content pt-3">
+                        
+                        <!-- Tab Đăng ký -->
+                        <div id="modal-register" class="tab-pane fade" role="tabpanel" aria-labelledby="modal-register-tab">
+                            <h5 class="fw-bold mb-3">Form Đăng Ký Thông Tin</h5>
+                            <form>
+                                <div class="mb-3">
+                                    <label class="form-label text-secondary small">Họ và Tên</label>
+                                    <input type="text" class="form-control" placeholder="Nhập họ và tên" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label text-secondary small">Email</label>
+                                    <input type="email" class="form-control" placeholder="Nhập email" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label text-secondary small">Số Điện Thoại</label>
+                                    <input type="tel" class="form-control" placeholder="Nhập số điện thoại" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label text-secondary small">Mật Khẩu</label>
+                                    <input type="password" class="form-control" placeholder="Nhập mật khẩu" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label text-secondary small">Xác Nhận Mật Khẩu</label>
+                                    <input type="password" class="form-control" placeholder="Xác nhận mật khẩu" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label text-secondary small me-3">Giới Tính:</label>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="modalGender" id="modalMale" value="nam" checked>
+                                        <label class="form-check-label small" for="modalMale">Nam</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="modalGender" id="modalFemale" value="nu">
+                                        <label class="form-check-label small" for="modalFemale">Nữ</label>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label text-secondary small">Ngôn Ngữ</label>
+                                    <select class="form-select">
+                                        <option selected>Tiếng Việt</option>
+                                        <option value="en">Tiếng Anh</option>
+                                        <option value="jp">Tiếng Nhật</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-check mb-3">
+                                    <input class="form-check-input" type="checkbox" id="modalAgree" required>
+                                    <label class="form-check-label text-secondary small" for="modalAgree">
+                                        Tôi đồng ý với các điều khoản và điều kiện
+                                    </label>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary w-100">Đăng Ký</button>
+                            </form>
+                        </div>
+
+                        <!-- Tab Đăng nhập -->
+                        <div id="modal-login" class="tab-pane fade show active" role="tabpanel" aria-labelledby="modal-login-tab">
+                            <h5 class="fw-bold mb-3">Form Đăng nhập</h5>
+                            <form>
+                                <div class="mb-3">
+                                    <label class="form-label text-secondary small">Email</label>
+                                    <input type="email" class="form-control" placeholder="Nhập email" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label text-secondary small">Mật Khẩu</label>
+                                    <input type="password" class="form-control" placeholder="Nhập mật khẩu" required>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary w-100 mt-2">Đăng Nhập</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
